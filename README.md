@@ -1,6 +1,6 @@
 # Optimization with `PyMoosh` and `Nevergrad`
 
-Tutorial python notebooks, accompanying the paper *An illustrated tutorial on global optimization in nanophotonics* ([link]((https://notyetthere)).
+Tutorial python notebooks, accompanying the paper *An illustrated tutorial on global optimization in nanophotonics* ([link](https://notyetthere)).
 
 We demonstrate how to do global optimization of the geometry of multi-layered photonic structures. Multi-layer simulations are done with [`PyMoosh`](https://github.com/AnMoreau/PyMoosh), as optimization toolkit we use [`Nevergrad`](https://facebookresearch.github.io/nevergrad/).
 
@@ -39,3 +39,10 @@ We demonstrate how to do global optimization of the geometry of multi-layered ph
   - `07_photovoltaics_algo_benchmark.ipynb`: Algorithm benchmark on the photovoltaics problem ([link to google colab version](https://colab.research.google.com/drive/13Y4A4wWmjBp4OoLJFyx_c4NIrSHLCFon))
     
   - `09_paper_results_reference_Pymoosh_and_Nevergrad.ipynb`: Reproduce all results of the paper ([link to google colab version](https://colab.research.google.com/drive/1Xk3gY1SK0xIivFRaCGMzsYrP_7RIbGmQ?usp=sharing))
+
+  
+## DOI
+
+The DOI of this tutorial repository is: 
+[![DOI](https://zenodo.org/badge/691595444.svg)](https://zenodo.org/badge/latestdoi/691595444)
+
