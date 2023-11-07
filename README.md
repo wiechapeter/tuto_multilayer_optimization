@@ -40,9 +40,9 @@ We demonstrate how to do global optimization of the geometry of multi-layered ph
     
   - `09_paper_results_reference_Pymoosh_and_Nevergrad.ipynb`: Reproduce all results of the paper ([link to google colab version](https://colab.research.google.com/drive/1Xk3gY1SK0xIivFRaCGMzsYrP_7RIbGmQ?usp=sharing))
 
-  
+An additional version with ``Centered'' as prefix is included, with initialization with 50\% matter instead of low proportion of matter.
 ## DOI
 
 The DOI of this tutorial repository is: 
-[![DOI](https://zenodo.org/badge/691595444.svg)](https://zenodo.org/badge/latestdoi/691595444)
+[![DOI]()]()
 
