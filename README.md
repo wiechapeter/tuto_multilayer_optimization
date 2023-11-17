@@ -1,8 +1,8 @@
 # Optimization with `PyMoosh` and `Nevergrad`
 
-Tutorial python notebooks, accompanying the paper *An illustrated tutorial on global optimization in nanophotonics* ([arXiv:2309.09760](https://arxiv.org/abs/2309.09760)).
+Tutorial python notebooks, accompanying the paper *An illustrated tutorial on global optimization in nanophotonics* by P. Bennet et al. ([arXiv:2309.09760](https://arxiv.org/abs/2309.09760)).
 
-We demonstrate how to do global optimization of the geometry of multi-layered photonic structures, 2D gratings and plasmonic nanostructures. Multi-layer simulations are done with [`PyMoosh`](https://github.com/AnMoreau/PyMoosh), 2D gratings with a home-made RCWA code and plasmonic nanostructures with ['pyGDM'](https://homepages.laas.fr/pwiecha/pygdm_doc/). As optimization toolkit we use [`Nevergrad`](https://facebookresearch.github.io/nevergrad/).
+We demonstrate how to do global optimization of the geometry of multi-layered photonic structures, 2D gratings and plasmonic nanostructures. Multi-layer simulations are done with [`PyMoosh`](https://github.com/AnMoreau/PyMoosh), 2D gratings with a home-made RCWA code and plasmonic nanostructures with [`pyGDM`](https://homepages.laas.fr/pwiecha/pygdm_doc/). As optimization toolkit we use [`Nevergrad`](https://facebookresearch.github.io/nevergrad/).
 
 ## Goal of the example problems
 
