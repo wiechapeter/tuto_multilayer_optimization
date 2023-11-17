@@ -1,25 +1,31 @@
 # Optimization with `PyMoosh` and `Nevergrad`
 
-Tutorial python notebooks, accompanying the paper *An illustrated tutorial on global optimization in nanophotonics* ([link](https://notyetthere)).
+Tutorial python notebooks, accompanying the paper *An illustrated tutorial on global optimization in nanophotonics* ([arXiv:2309.09760](https://arxiv.org/abs/2309.09760)).
 
-We demonstrate how to do global optimization of the geometry of multi-layered photonic structures. Multi-layer simulations are done with [`PyMoosh`](https://github.com/AnMoreau/PyMoosh), as optimization toolkit we use [`Nevergrad`](https://facebookresearch.github.io/nevergrad/).
+We demonstrate how to do global optimization of the geometry of multi-layered photonic structures, 2D gratings and plasmonic nanostructures. Multi-layer simulations are done with [`PyMoosh`](https://github.com/AnMoreau/PyMoosh), 2D gratings with a home-made RCWA code and plasmonic nanostructures with ['pyGDM'](https://homepages.laas.fr/pwiecha/pygdm_doc/). As optimization toolkit we use [`Nevergrad`](https://facebookresearch.github.io/nevergrad/).
 
 ## Goal of the example problems
 
-**The tutorials have two main goals:**
+**The tutorials have three main goals:**
 
   1. providing a simple introduction and a starting point for global optimization of multi-layer structures.
   
   2. demonstrating advanced benchmarking in order to find the best optimization algorithm for a specific problem and to assess the quality of the found solution.
   
+  3. describing how to apply global optimization to different problems in nano-photonics
+  
 
-**Three specific examples are treated:**
+**Five specific applications are treated:**
 
   1. optimization of a Bragg mirror
   
-  2. Solving of an ellipsometry inverse problem
+  2. solving of an ellipsometry inverse problem
   
   3. design of a sophisticated antireflection coating to optimize solar absorption in a photovoltaic solar cell
+  
+  4. optimization of the morphology of a 2D grating for maximum specular reflectance in the first diffraction order at a given wavelength
+  
+  5. design of a plasmonic nanostructure for directional emission from a local emitter
 
 
 ## List of all notebooks
@@ -43,5 +49,6 @@ We demonstrate how to do global optimization of the geometry of multi-layered ph
 ## DOI
 
 The DOI of this tutorial repository is: 
-[![DOI]()]()
+[![DOI](https://zenodo.org/badge/691595444.svg)](https://zenodo.org/badge/latestdoi/691595444)
+
 
